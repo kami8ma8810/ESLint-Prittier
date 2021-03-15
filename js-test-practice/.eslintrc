@@ -1,0 +1,17 @@
+{
+	//チェックルールの指定
+	"extends": "eslint:recommended",
+	"parserOptions": {
+		//ES6をチェックしたい場合のオプション
+		"ecmaVersion": 6
+	},
+	"env": {
+		"node": true,
+		"browser": true,
+		"mocha": true //テスト環境
+	},
+	//ルールを一部変更したい場合のオプション
+	"rules": {
+		"no-console": 0
+	}
+}
