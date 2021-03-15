@@ -1,1 +1,26 @@
-{}
+{
+	"env": {
+		"browser": true, //ブラウザでメジャーなもの（documentなど）を許可
+		"jquery": true //jqueryの$などを許可
+	},
+	"extends": "eslint:recommended", //大まかなルールの読み込み
+	"globals": {},
+	"parserOptions": {
+		//ES2015に対応
+		"ecmaVersion": 2015
+	},
+	"rules": {
+		"no-extra-semi": "warn",
+		"no-undef": "warn", //未定義の変数をチェック
+		"quotes": [
+			"warn",
+			"single"
+		],
+		"space-before-blocks": [
+			"warn",
+			{
+				"functions": "always"
+			}
+		]
+	}
+}
