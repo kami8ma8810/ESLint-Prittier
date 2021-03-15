@@ -1,12 +1,12 @@
 {
-  "name": "js-test-practice",
+  "name": "js-test-qiita",
   "version": "1.0.0",
-  "description": "eslint test",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
