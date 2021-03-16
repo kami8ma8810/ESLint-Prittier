@@ -3,7 +3,10 @@
 		"browser": true, //ブラウザでメジャーなもの（documentなど）を許可
 		"jquery": true //jqueryの$などを許可
 	},
-	"extends": "eslint:recommended", //大まかなルールの読み込み
+	"extends": [
+		"eslint:recommended", //大まかなルールの読み込み
+		"prettier" //Prettier適用
+	],
 	"globals": {},
 	"parserOptions": {
 		//ES2015に対応
@@ -21,22 +24,6 @@
 			{
 				"functions": "always"
 			}
-		],
-		"vue/html-self-closing": [
-			"error",
-			{
-				"html": {
-					"void": "never",
-					"normal": "always",
-					"component": "always"
-				},
-				"svg": "always",
-				"math": "always"
-			}
 		]
-	},
-	" extends ": [
-		" some-other-config-you-use ",
-		" prettier "
-	]
+	}
 }
