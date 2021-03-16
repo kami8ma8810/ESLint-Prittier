@@ -21,6 +21,22 @@
 			{
 				"functions": "always"
 			}
+		],
+		"vue/html-self-closing": [
+			"error",
+			{
+				"html": {
+					"void": "never",
+					"normal": "always",
+					"component": "always"
+				},
+				"svg": "always",
+				"math": "always"
+			}
 		]
-	}
+	},
+	" extends ": [
+		" some-other-config-you-use ",
+		" prettier "
+	]
 }
