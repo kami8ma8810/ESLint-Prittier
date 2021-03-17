@@ -14,17 +14,9 @@
 	},
 	//個別ルール
 	"rules": {
-		"no-extra-semi": "warn",
-		"no-undef": "warn", //未定義の変数をチェック
-		"quotes": [
-			"warn",
-			"single"
-		],
-		"space-before-blocks": [
-			"warn",
-			{
-				"functions": "always"
-			}
+		"semi": [
+			"error",
+			"always"
 		]
 	}
 }

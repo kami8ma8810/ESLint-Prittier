@@ -1,17 +1,18 @@
 {
-  "name": "js-test-qiita",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint src"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^7.22.0",
-    "eslint-config-prettier": "^8.1.0"
-  }
+	"name": "js-test-qiita",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"format": "eslint ./src/**/*.js && prettier --write ./src/**/*.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^7.22.0",
+		"eslint-config-prettier": "^8.1.0",
+		"prettier": "^2.2.1"
+	}
 }
